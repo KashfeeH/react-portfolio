@@ -1,0 +1,61 @@
+@import '../../vars.css';
+
+
+.navbar{
+  display: var(--display);
+  align-items: var(--align-items);
+  justify-content: space-between;
+  padding-top: 30px;
+  margin: 0 10%;
+  
+}
+
+.title{
+  font-size: 30px;
+  font-family: 'Pacifico';
+ 
+}
+
+.menu{
+  display: var(--display);
+}
+
+.list{
+  display: var(--display);
+  gap: 47px;
+  font-size: 25px;
+}
+
+.hamburgerMenu {
+  display: none;
+}
+
+@media screen and (max-width: 800px) {
+  .title{
+    font-size: 20px ;
+  }
+
+  .list{
+    flex-direction: var(--flex-direction);
+    justify-content: center;
+    align-items: var(--align-items);
+    width: 70%;
+    height: var(--height-cn);
+    top: 0;
+    left:-100%;
+    z-index: 3; 
+    position: absolute;
+    background: rgba(0, 0,0,0.9);
+    transition: 0.3s ease;
+          
+  }
+
+  .active {
+    left: 0;
+    
+  }
+  
+  .hamburgerMenu{
+    display: initial;
+  }
+}
