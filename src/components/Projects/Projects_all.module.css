@@ -1,0 +1,19 @@
+@import "../../vars.css";
+
+.container {
+  margin-top: 76px;
+  color: var(--color-text);
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.projects {
+  margin-top: 37px;
+  display: var(--display);
+  flex-direction: row;
+  flex-wrap: var(--flex-wrap);
+  align-items: var(--align-items);
+  justify-content: var(--justify-content);
+  gap: 15px;
+  width: var(--width-cn);
+}
