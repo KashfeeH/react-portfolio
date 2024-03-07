@@ -1,0 +1,50 @@
+[
+  {
+    "title": "LyricLink",
+    "imageSrc": "projects/project.png",
+    "description": "Simple web application to search for song lyrics and display them along with YouTube video.",
+    "skills": ["JQuery", "Bootstrap", "Server-side Api"],
+    "demo": "https://kashfeeh.github.io/LyricLink/",
+    "source": "https://github.com/KashfeeH/LyricLink"
+  },
+  {
+    "title": "Team Profile Generator",
+    "imageSrc": "projects/project.png",
+    "description": "A CLI application that generates an HTML webpage with employee imformation using Node.js.",
+    "skills": ["Bootstrap", "Inquirer", "Node", "Jest"],
+    "demo": "https://github.com/KashfeeH/team-profile-generator",
+    "source": "https://github.com/KashfeeH/team-profile-generator"
+  },
+  {
+    "title": "Weather-App",
+    "imageSrc": "projects/project.png",
+    "description": "An app that allows users to see the weather forecast for cities of their choosing.",
+    "skills": ["JQuery", "Bootstrap", "Server-side Api"],
+    "demo": "https://kashfeeh.github.io/Weather-App/",
+    "source": "https://github.com/KashfeeH/Weather-App"
+  },
+  {
+    "title": "Day Planner App ",
+    "imageSrc": "projects/project.png",
+    "description": "A simple calendar application that allows a user to save events for each hour of the day.",
+    "skills": ["Bootstrap", "JavaScript", "JQuery"],
+    "demo": "https://kashfeeh.github.io/Day-Planner-App/",
+    "source": "https://github.com/KashfeeH/Day-Planner-App"
+  },
+  {
+    "title": "Mini Quiz App",
+    "imageSrc": "projects/project.png",
+    "description": "A multiple-choice Mini quiz game that is timed and keeps track of high scores as well as quiz-takers' initials.",
+    "skills": ["JavaScript"],
+    "demo": "https://kashfeeh.github.io/Mini-Quiz-App/",
+    "source": "https://github.com/KashfeeH/Mini-Quiz-App"
+  },
+  {
+    "title": "Password Generator",
+    "imageSrc": "projects/project.png",
+    "description": "A random password generator using vanilla JavaScript.",
+    "skills": ["Bootstrap", "JavaScript"],
+    "demo": " https://kashfeeh.github.io/random-Password-generator/",
+    "source": "https://github.com/KashfeeH/random-Password-generator"
+  }
+]
