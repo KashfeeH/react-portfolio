@@ -18,7 +18,7 @@ Please navigate to https://kashfeeh.github.io/react-portfolio/
 ![Home page](./assets/screenshots/homepage.PNG)
 ![About page](./assets/screenshots/aboutpage.PNG)
 ![Projects page](./assets/screenshots/projectpage.PNG)
-![Contact page](./assets/screenshots/homepage.PNG)
+![Contact page](./assets/screenshots/contactpage.PNG)
 
 ## Contributions
 As always, as I am a complete novice in this field, any contributions to improve or correct the work would be highly appreciated. 
