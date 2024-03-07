@@ -1,0 +1,18 @@
+:root {
+--color-text: #fff;
+--color-primary: #576cbc;
+--color-secondary: #19376d;
+--color-dark: #0b2447;
+--color-bg: #04152d;
+--height-cn: 100%;
+--width-cn: 100%;
+--display: flex;
+--flex-direction: column;
+--padding-cn: 1rem;
+--font-family:'Roboto';
+--position-abs: absolute;
+--align-items: center;
+--justify-content: center;
+--flex-wrap: wrap;
+--text-align: center;
+}
