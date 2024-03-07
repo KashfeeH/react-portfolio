@@ -3,7 +3,7 @@
 
 ## Description
 
-This week's challenge was to create a react portfolio. It is mobile responsive. However, I have failed to show the logos and pngs for each projects. But I will most definitely keep working to ensure they appear in their place.
+This week's challenge was to create a react portfolio and it is mobile responsive 
 
 ## Technologies Used
 
