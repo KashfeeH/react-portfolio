@@ -1,0 +1,47 @@
+@import '../../vars.css';
+
+.heroImg2{
+  width: var(--width-cn);
+  height: 60vh;
+  position: relative;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.heroImg2::before{
+  content: '';
+  background-image: url('../../../assets/hero/heroImage2.jpg');
+  background-size: cover;
+  background-position: center;
+  position: var(--position-abs);
+  z-index: 1;
+  top: 0;
+  left: 0;
+  height: var(--height-cn);
+  width: var(--width-cn);
+}
+
+.title{
+ width: var(--width-cn);
+ height: var(--height-cn);
+ display: var(--display);
+ align-items: var(--align-items);
+ justify-content: var(--justify-content);
+ flex-direction: var(--flex-direction);
+ position: var(--position-abs);
+ z-index: 2; 
+ 
+ }
+ .title h2{
+  font-size: 2.4rem;
+ }
+
+ .title p{
+  font-size: 1.4rem;
+  text-align: var(--text-align);
+ }
+
+ @media screen and (max-width: 800px) {
+  .title h2{
+    font-size: 2rem;
+   }
+}
