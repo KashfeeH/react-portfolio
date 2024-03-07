@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom'
 import React from 'react'
 import myresume from '../../../assets/resume/myresume.pdf'
 import skills from '../../data/skills.json'
+import { getImageUrl } from "../../utils";
 
 const Aboutcontent = () => {
   return (
@@ -21,7 +22,7 @@ const Aboutcontent = () => {
             return (
               <div key={id} className={styles.skill}>
                 <div className={styles.skillImageContainer}>
-                  <img src={(skill.imageSrc)} alt={skill.title} />
+                <img src={getImageUrl(skill.imageSrc)} alt={skill.title} />
                 </div>
                 <p>{skill.title}</p>
               </div>
