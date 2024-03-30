@@ -1,5 +1,15 @@
-[
+[ 
   {
+    
+    "title": "findMyBook",
+    "imageSrc": "projects/project0.png",
+    "description": " A single page application that enables users to search for books, providing a seamless experience for discovering literature .",
+    "skills": ["React", "TailwindCss", "Server-side Api"],
+    "demo": "https://findmy-book.netlify.app/",
+    "source": "https://github.com/rhipsime/findmybook"
+  },
+  {
+    
     "title": "LyricLink",
     "imageSrc": "projects/project1.png",
     "description": "Simple web application to search for song lyrics and display them along with YouTube video.",
